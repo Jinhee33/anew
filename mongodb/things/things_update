@@ -1,0 +1,4 @@
+use test
+db.thins.update({empno:1102},
+{$set:{dept:"human"}})
+db.thins.find({empno:1102})

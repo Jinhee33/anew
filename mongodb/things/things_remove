@@ -1,0 +1,3 @@
+use test
+db.thins.remove({ename:"smith"})
+db.thins.find()

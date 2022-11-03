@@ -1,0 +1,3 @@
+use test
+db.thins.remove({})
+db.thins.find()
