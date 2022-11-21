@@ -1,0 +1,8 @@
+services :
+ redis :
+  image : redis
+ webserver :
+  image : nginx
+  ports :
+   - 80:80/tcp
+version : '3.3'
